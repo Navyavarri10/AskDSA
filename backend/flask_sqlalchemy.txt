@@ -1,8 +1,0 @@
-
-db.session.add(model object) − inserts a record into mapped table
-
-db.session.delete(model object) − deletes record from table
-
-model.query.all() − retrieves all records from table (corresponding to SELECT query).
-
-Students.query.filter_by(city = ’Hyderabad’).all() -retrieves all records where city is ’Hyderabad’

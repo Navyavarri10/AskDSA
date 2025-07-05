@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemey
+Flask-Migrate
+python-dotenv
+Flask-JWT-Extended
+pymysql
+logging

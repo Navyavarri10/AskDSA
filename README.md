@@ -38,11 +38,21 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/askdsa.git
+git clone https://github.com/Navyavarri10/AskDSA.git
 cd askdsa
-````
+pip install -r requirements.txt
+```
+### 2. Setup the MySQL Database. check code-requirements.txt in backend folder for setup
+### 3. Setup the Backend
 
-### 2. Setup the Frontend
+```bash
+cd backend
+python server.py
+```
+
+Backend runs on: [http://localhost:5000](http://localhost:5000)
+
+### 4. Setup the Frontend
 
 ```bash
 cd client
@@ -52,15 +62,6 @@ npm start
 
 Runs on: [http://localhost:3000](http://localhost:3000)
 
-### 3. Setup the Backend
-
-```bash
-cd server
-pip install -r requirements.txt
-python app.py
-```
-
-Backend runs on: [http://localhost:5000](http://localhost:5000)
 
 > ⚠️ Ensure your MySQL server is running and credentials are correctly configured in the backend.
 
@@ -89,4 +90,11 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 * [Flask Docs](https://flask.palletsprojects.com/)
 * [MySQL Docs](https://dev.mysql.com/doc/)
 
-```
+---
+
+## 👩‍💻 Developed By
+
+**Varri Navya**
+Feel free to connect on [GitHub](https://github.com/Navyavarri10) 😊
+
+---
